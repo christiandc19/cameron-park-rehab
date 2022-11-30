@@ -28,7 +28,7 @@ const Home = () => {
                     </div>
                 
                     <Fade bottom>
-                        <h2 className='subtitle'>MENTAL HEALTH TREATMENT FACILITY</h2>
+                        {/* <h2 className='subtitle'>MENTAL HEALTH TREATMENT FACILITY</h2> */}
                         <p>Find your happiness and learn to put it first.</p>
                     </Fade>
                         <br />

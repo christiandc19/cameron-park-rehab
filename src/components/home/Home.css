@@ -6,7 +6,6 @@
     position: relative;
     top: 0;
     object-fit: cover;
-    z-index: -2;
 }
 
 .video-bg {
@@ -19,12 +18,12 @@
 
 .home .hero-container {
     position: absolute;
-    top: 18%;
+    top: 25%;
     left: 13%;
-    width: 100%;
+    width: 30%;
 }
 
-.home-header h1{
+.home-header h1 {
     color: #ffffff;
     font-size: 5rem;
     text-align: center;
@@ -38,7 +37,7 @@
 }
 
 .hero-logo img {
-    width: 35%;
+    width: 100%;
 }
 
 .home span {
@@ -48,7 +47,7 @@
 .home p {
     color: white;
     font-style: italic;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -62,6 +61,7 @@
 
 .home .home-btn button {
     cursor: pointer;
+    margin: auto;
 }
 
 
@@ -81,7 +81,12 @@
     }
 
     .hero-logo img {
-        width: 15%;
+        width: 100%;
+    }
+
+    .home .hero-container {
+        top: 25%;
+        width: 75%;
     }
 
 }

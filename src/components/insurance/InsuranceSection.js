@@ -71,7 +71,7 @@ const InsuranceSection = () => {
             </div>
 
 
-            {/* <div className='form-cta'>
+            <div className='form-cta container'>
             <p>Our professional team is here to assist you with any insurance related matters and to facilitate this process in any way possible. To find out if we accept your insurance, please download the form and submit your policy information thru email.</p>
             </div>
             <div className='cta'>
@@ -83,7 +83,7 @@ const InsuranceSection = () => {
                     </Link>
                 </LinkRoll>
                 <button><a href={Form} download className="btn btn-primary">Download Form</a></button>
-            </div> */}
+            </div>
 
 
         </div>

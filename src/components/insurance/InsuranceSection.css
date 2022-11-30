@@ -52,11 +52,11 @@
 
 .form-cta {
     text-align: center;
-    margin-top: -8rem;
 }
 
 .form-cta p {
-    width: 50%;
+    width: 100%;
+    padding: 10px;
     margin: auto;
 }
 
@@ -68,12 +68,11 @@
         width: 100%;
         padding: 1rem;
         /* background: rgba(255, 255, 255, .7); */
-        margin-top: -3rem;
     }
 
 
-    .testimInsuranceSectiononials h2 {
-        font-size: 25px;
+    .InsuranceSection h1 {
+        font-size: 2rem;
     }
 
     .InsuranceSection p {

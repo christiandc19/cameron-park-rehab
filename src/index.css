@@ -82,8 +82,8 @@ button {
 }
 
 button:hover {
-  background-color: #47dcff;
-  border: 1px solid #47dcff;
+  background-color: white;
+  color: var(--primary-color);
 }
 
 span {
