@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
 import './Treatment.css'
 
-import KeyAreas from '../../assets/key-areas-vbg.mp4'
-import Activities from '../../assets/activities-vbg.mp4'
+// import KeyAreas from '../../assets/key-areas-vbg.mp4'
+// import Activities from '../../assets/activities-vbg.mp4'
 
 import { RiMovieFill } from 'react-icons/ri';
 import { GiBowlingStrike } from 'react-icons/gi';
@@ -74,9 +74,9 @@ const Treatment = () => {
                     </Fade>
                 </div>
 
-                    <div className='keyAreas-image'>
+                    {/* <div className='keyAreas-image'>
                         <video src={KeyAreas} autoPlay muted loop playsInline className='video-bg' />
-                    </div>
+                    </div> */}
 
             </div>
 
@@ -87,9 +87,9 @@ const Treatment = () => {
 
 
             <div className='activities'>
-            <div className='activities-image'>
+            {/* <div className='activities-image'>
                 <video src={Activities} autoPlay muted loop playsInline className='video-bg' />
-                </div>
+                </div> */}
 
                 <div className='activities-description'>
                         <br />

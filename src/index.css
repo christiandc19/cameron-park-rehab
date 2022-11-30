@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-  --primary-color: #b32121;
+  --primary-color: #795303;
   --primary-dark: #0d2154;
   --secondary-color: #7DE5ED;
 
@@ -34,7 +34,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgb(39, 39, 39);
+  color: rgb(255, 255, 255);
 }
 
 a:hover {
