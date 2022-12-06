@@ -18,8 +18,8 @@
 
 .home .hero-container {
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 25%;
+    left: 30%;
     width: 40%;
 }
 
@@ -85,10 +85,10 @@
     }
 
     .home .hero-container {
-        top: 30%;
+        position: absolute;
+        top: 25%;
+        left: 0%;
         width: 100%;
-        left: 0;
         padding: 1rem;
     }
-
 }
