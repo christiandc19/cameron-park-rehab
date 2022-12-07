@@ -33,9 +33,9 @@ const ContactForm = () => {
                 <div className="map">
                     <div className="location">
                         <h1>GET IN TOUCH</h1><br />
-                        <p><AiOutlinePhone /> +1 123 456 7890  </p><br />
-                        <p><AiOutlineMail /> info@palmspringsrehab.com  </p><br />
-                        <p><BsFillPinMapFill /> 1800 Vine Street Los Angeles Ca 90028  </p><br />
+                        <p><AiOutlinePhone /><a href="tel:3234029939"> +1 (323) 402-9939</a></p><br /> 
+                        <p><AiOutlineMail /> info@DomainName.com  </p><br />
+                        <p><BsFillPinMapFill /> 4120 Cameron Park Dr. Suite 403, Cameron Park, CA 95682  </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>
 
