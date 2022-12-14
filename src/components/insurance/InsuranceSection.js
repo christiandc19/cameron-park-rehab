@@ -6,9 +6,15 @@ import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
 import Cigna from '../../assets/cigna.png'
-import MolinaHealthCare from '../../assets/molina-healthcare.png'
-import MHN from '../../assets/mhn.png'
 import United from '../../assets/united-healthcare.png'
+import Horizon from '../../assets/horizon.png'
+import Optima from '../../assets/optima.png'
+import Optum from '../../assets/optum.png'
+import Umr from '../../assets/umr.png'
+
+
+
+
 import Form from '../../assets/form.pdf'
 
 
@@ -52,19 +58,31 @@ const InsuranceSection = () => {
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={MolinaHealthCare} alt="Cigna Logo" loading="lazy" />
+                            <img src={Optima} alt="Optima Insurance Logo" loading="lazy" />
                         </div>
                     </Fade>
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={MHN} alt="Cigna Logo" loading="lazy" />
+                            <img src={Umr} alt="UMR Insurance Logo" loading="lazy" />
                         </div>
                     </Fade>
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
                             <img src={United} alt="Cigna Logo" loading="lazy" />
+                        </div>
+                    </Fade>
+
+                    <Fade top>
+                        <div className='insurance-thumbnail'>
+                            <img src={Horizon} alt="Horizon Insurance Logo" loading="lazy" />
+                        </div>
+                    </Fade>
+
+                    <Fade bottom>
+                        <div className='insurance-thumbnail'>
+                            <img src={Optum} alt="Optum Insurance Logo" loading="lazy" />
                         </div>
                     </Fade>
                 </div>
