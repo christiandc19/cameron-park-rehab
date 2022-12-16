@@ -34,13 +34,13 @@ const ContactForm = () => {
                     <div className="location">
                         <h1>GET IN TOUCH</h1><br />
                         <p><AiOutlinePhone /><a href="tel:3234029939"> +1 (323) 402-9939</a></p><br /> 
-                        <p><AiOutlineMail /> info@DomainName.com  </p><br />
+                        {/* <p><AiOutlineMail /> info@DomainName.com  </p><br /> */}
                         <p><BsFillPinMapFill /> 4120 Cameron Park Dr. Suite 403, Cameron Park, CA 95682  </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>
 
                     <div className="iframe">
-                        <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=1800%20Vine%20Street%20Los%20Angle&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=4120%20Cameron%20Park%20Dr.%20Suite%20403,%20Cameron%20Park,%20CA%2095682+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
                 </div>
 
