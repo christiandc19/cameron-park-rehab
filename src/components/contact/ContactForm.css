@@ -5,14 +5,6 @@
 
 }
 
-.contactForm-mainContainer:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/footer-bg.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-}
 
 .contactForm {
     display: flex;
@@ -40,7 +32,7 @@
 .contact-container form {
     height: 37rem;
     width: 300px;
-    background: url('../../assets/mission-bg.jpg')no-repeat center center/cover;
+    background: url('../../assets/menu-bg.jpg') no-repeat center center/cover;
     border-radius: 1rem;
 }
 

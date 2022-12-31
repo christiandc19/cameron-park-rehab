@@ -23,7 +23,8 @@ const Home = () => {
 
                     <div className='hero-logo'>
                     <Fade left>
-                        <img src={ HeroLogo } alt="" />
+                    <img src={HeroLogo} width="250px" height="200px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+
                     </Fade>
                     </div>
                 

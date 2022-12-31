@@ -18,9 +18,10 @@
 
 .home .hero-container {
     position: absolute;
+    /* align-items: center;
+    justify-content: center; */
     top: 25%;
-    left: 30%;
-    width: 40%;
+    left: 15%;
 }
 
 .home-header h1 {
@@ -38,6 +39,7 @@
 
 .hero-logo img {
     width: 100%;
+    padding: 1rem;
 }
 
 .home span {
@@ -67,9 +69,7 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
-
-
+@media screen and (max-width:375px) {
 
     .subtitle {
         font-size: 1.5rem;
@@ -79,16 +79,9 @@
     .home p {
         font-size: 13px;
     }
-
-    .hero-logo img {
-        width: 100%;
-    }
-
     .home .hero-container {
-        position: absolute;
-        top: 25%;
-        left: 0%;
-        width: 100%;
-        padding: 1rem;
+        left: 2%;
     }
+
+
 }
