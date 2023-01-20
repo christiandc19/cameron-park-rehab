@@ -8,7 +8,7 @@ const Iop = () => {
             <div className="container">
                 <div className="content">
                     <Fade top>
-                    <h1>INTENSIVE OUTPATIENT PROGRAM (IOP)</h1>
+                    <h1>Substance Abuse - Intensive Outpatient Program (IOP)</h1>
                     </Fade>
                     <Fade bottom>
                     <p>Our IOP enables patients to continue their day-to-day regimen while simultaneously  undergoing our best possible care. Measured on a case-by-case basis, patients may live in our treatment center, in a sober living community, or at their own home. 
