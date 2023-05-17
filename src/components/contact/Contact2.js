@@ -27,10 +27,11 @@ const ContactForm = () => {
     return (
         <>
 
+<div className="contactform2">
 
     <div className="contact2-header contact2-container">
         <h1>DO YOU NEED URGENT HELP?</h1>
-        <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+        <p>Our Mental Health Support team is available 24 hours a day 7 Days a week.</p>
     </div>
 
 
@@ -43,7 +44,7 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">4120 Cameron Park Dr. Suite 403</div>
+          <div class="text-one">4120 Cameron Park Dr. Suite 403, </div>
           <div class="text-two">Cameron Park, CA 95682</div>
         </div>
 
@@ -82,7 +83,7 @@ const ContactForm = () => {
     </div>
     </div>
   </div>
-
+  </div>
         </>
     )
 }
