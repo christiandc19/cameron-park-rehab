@@ -14,9 +14,9 @@ const home = () => {
   return (
     <>
     <Cards />
+    <WhatWeDo />
     <TherapySA />
     {/* <Conditions /> */}
-    <WhatWeDo />
     <TherapyMH />
     <InsuranceSection />
     <MissionHome />

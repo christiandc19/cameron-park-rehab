@@ -31,7 +31,7 @@
 
 .box-icon {
     font-size: 6rem;
-    color: rgb(139, 85, 4);
+    color: #977ab3;
     padding: 1rem 0;
 }
 
@@ -80,7 +80,7 @@
 .TherapySA-right .box {
     height: auto;
     width: 350px;
-    background-color: rgba(255, 255, 255, 0.247);
+    background-color: rgba(255, 255, 255, 0.664);
     border-radius: 10px;
 }
 
