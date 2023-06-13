@@ -1,6 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -25,6 +26,7 @@ const Hero = () => {
           </div>
 
             <div className="hero-btn">
+            <Link to="/contact">
                 <button class="hero-cta">
                     <span>CONTACT US</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -32,6 +34,7 @@ const Hero = () => {
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                 </button>
+</Link>
             </div>
         </div>
       </div>
