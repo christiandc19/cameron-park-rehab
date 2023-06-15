@@ -66,7 +66,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@domainName.com  </p><br />
+            <p><AiOutlineMail /> info@cameronparkrehab.com  </p><br />
     </div>
 
     <div class="get_form_inner2">

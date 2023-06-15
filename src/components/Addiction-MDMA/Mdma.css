@@ -4,14 +4,14 @@
 .mdma {
     width: 100%;
     height: 80vh;
-    background: #17362da4;
+    background: #0f0f0f8e;
     position: relative;
   }
   
   .mdma:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
+    background: url('https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/mdma.jpg') no-repeat center top/cover;
     height: 80vh;
     width: 100%;
     z-index: -1;
@@ -27,7 +27,7 @@
 .mdma .mdma-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
@@ -35,12 +35,14 @@
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
 }
 
-.mdma h3 {
+.mdma h2 {
+    text-align: center;
     color: white;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
 
 /* MEDIA QUERIES */
@@ -48,11 +50,8 @@
 @media screen and (max-width:940px) {
 
 .mdma h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
-.mdma h3 {
-    font-size: 1rem;
-}
 
 }

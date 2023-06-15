@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 
-.Schizoaffective {
+.schizoaffective {
     width: 100%;
     height: 80vh;
-    background: rgba(42, 14, 73, 0.486);
+    background: rgba(15, 15, 15, 0.445);
     position: relative;
   }
   
-  .Schizoaffective:before {
+  .schizoaffective:before {
     content: '';
     position: absolute;
     background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
@@ -18,35 +18,39 @@
   }
   
 
-.Schizoaffective {
+.schizoaffective {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.Schizoaffective .Schizoaffective-content {
+.schizoaffective .schizoaffective-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
-.Schizoaffective h1 {
+.schizoaffective h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
+}
+
+.schizoaffective h2 {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
 
-.Schizoaffective h1 {
+.schizoaffective h1 {
     font-size: 2rem;
-}
-
-.Schizoaffective h3 {
-    font-size: 1rem;
 }
 
 }

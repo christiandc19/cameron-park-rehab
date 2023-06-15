@@ -1,5 +1,5 @@
 .contactform {
-  background: #F0EFE3;
+  background: #ffffff00;
   padding: 3rem 0;
 }
 
@@ -7,9 +7,10 @@
   .get_form_inner {
     display: block;
     padding: 3rem 3rem ;
-    background: #F0EFE3;
+    background: #5a5c82;
     box-shadow: -4px -2px 20px -7px #cfd5df;
     margin: 2rem 5rem 2rem 5rem;
+    border-radius: 10px;
   }
 
 input {
@@ -40,17 +41,18 @@ input {
   }
 
   .get_form_inner_text h3 {
-    color: #333;
+    color: #f7f2f2;
     font-size: 26px;
     font-weight: 600;
   }
 
   .get_form_inner_text p {
     text-align: left;
+    color: #f7f2f2;
   }
 
   input[type="submit"] {
-    background-color: var(--primary-color);
+    background-color: rgba(223, 137, 8, 0.753);
     border: var(--primary-color);
     color: #fff;    
     display: inline-block;
@@ -70,9 +72,9 @@ input {
   }
 
   input[type="submit"]:hover {
-    background-color: var(--secondary-color);
-    border-color: var(--secondary-color);
-    color: #fff;
+    background-color: white;
+    border-color: white;
+    color: #0c0c0c;
   }
 
 

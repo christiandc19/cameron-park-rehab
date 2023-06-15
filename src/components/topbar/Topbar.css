@@ -1,26 +1,27 @@
 .topbar {
     width: 100%;
-    padding: 1.2rem;
+    padding: 1rem;
     background-color: #5a5c82;
 }
 
 .topbar .topbar-content {
     display: flex;
+    justify-content: space-around;
     color: white;
 }
 
 .topbar .topbar-content p {
     padding: 0 1rem;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .topbar .bar-box1 {
-    width: 16rem;
+    width: 28rem;
     border-right: 1px solid rgba(255, 255, 255, 0.459);
 }
 
 .topbar .bar-box2 {
-    width: 15rem;
+    width: 17rem;
     border-right: 1px solid rgba(255, 255, 255, 0.459);
 }
 
@@ -30,8 +31,32 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 700px) {
-    .topbar {
+@media screen and (max-width: 940px) {
+    /* .topbar {
         display: none;
+    } */
+
+    .topbar .topbar-content p {
+        padding: 0 1rem;
+        font-size: 11px;
+    }
+
+    .topbar .bar-box1 {
+        width: 25rem;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 870px) {
+    .top-hide {
+        display: none;
+    }
+
+    .topbar .topbar-content p {
+        font-size: 13px;
     }
 }

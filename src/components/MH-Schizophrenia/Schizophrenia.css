@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 
-.Schizophrenia {
+.schizophrenia {
     width: 100%;
     height: 80vh;
-    background: rgba(42, 14, 73, 0.486);
+    background: rgba(15, 15, 15, 0.445);
     position: relative;
   }
   
-  .Schizophrenia:before {
+  .schizophrenia:before {
     content: '';
     position: absolute;
     background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
@@ -18,30 +18,38 @@
   }
   
 
-.Schizophrenia {
+.schizophrenia {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.Schizophrenia .Schizophrenia-content {
+.schizophrenia .schizophrenia-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
-.Schizophrenia h1 {
+.schizophrenia h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
+}
+
+.schizophrenia h2 {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
 
-.Schizophrenia h1 {
+.schizophrenia h1 {
     font-size: 2rem;
 }
 

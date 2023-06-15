@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-.mh-card-wrap
-{
+.sa-cards-header {
+  width: auto;
+  padding: 20px;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.sa-cards-header h1 {
+  margin: 2rem auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sa-cards-header p {
+font-family: 'Montserrat', sans-serif;
+}
+
+
+/* CARDS */
+
+.sa-card-wrap {
   width:100%;
   display:flex;
   flex-wrap: wrap;
@@ -9,17 +27,15 @@
   align-items:space-around;
 }
 
-.mh-tile
+.sa-tile
 {
   width:300px;
   height:300px;
   margin:10px;
-  /* background-color:#444549; */
   display:inline-block;
   background-size:cover;
   position:relative;
   transition: all 0.4s ease-out;
-  /* box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44); */
   overflow:hidden;
   color:white;
   text-align: center;
@@ -28,7 +44,8 @@
   /* box-shadow: 10px 5px 5px rgb(129, 129, 129); */
 }
 
-.mh-tile img
+
+.sa-tile img
 {
   height:100%;
   width:100%;
@@ -41,87 +58,141 @@
   box-shadow: 10px 5px 5px rgb(129, 129, 129);
 }
 
-.mh-tile .mh-text
-{
-/*   z-index:99; */
-  position:absolute;
-  padding:30px;
-  height:calc(100% - 60px);
-}
-.mh-tile h1{
-  color: rgb(255, 255, 255);
-  font-weight:300;
-  margin:0;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-  font-size: 1.5rem;
-}
 
-.mh-tile h2
-{
-  font-weight:100;
-  margin:20px 0 0 0;
-  font-style:italic;
-   transform: translateX(200px);
-}
-.mh-tile p
-{
-  font-weight:300;
-  margin:20px 0 0 0;
-  opacity:0;
-  transform: translateX(-200px);
-  transition-delay: 0.2s;
-  font-size: 12px;
-}
-.mh-animate-text
+.mh-tile .mh-text {
+  /*   z-index:99; */
+    position:absolute;
+    padding:30px;
+    height:calc(100% - 60px);
+  }
+  
+  .sa-tile h1 {
+    color: rgb(255, 255, 255);
+    font-weight:300;
+    margin:0;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    font-size: 1.5rem;
+  }
+  
+  
+  .sa-tile p {
+    font-weight:300;
+    margin:20px 0 0 0;
+    opacity:0;
+    transform: translateX(-200px);
+    transition-delay: 0.2s;
+    font-size: 12px;
+  }
+
+
+  .sa-animate-text
 {
   opacity:0;
   transition: all 0.6s ease-in-out;
 }
 
-.mh-tile:hover {
+.sa-tile:hover {
 /*   background-color:#99aeff; */
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   transform:scale(1.05);
 } 
 
-.mh-tile:hover img {
+.sa-tile:hover img {
   opacity: 0.2;
 } 
 
-.mh-tile:hover .mh-animate-text {
+.sa-tile:hover .sa-animate-text {
   transform:translateX(0);
   opacity:1;
 }
 
-
-.mh-tile:hover span
+.sa-tile:hover span
 {
   opacity:1;
   transform:translateY(0px);
 }
 
 
-.mh-cards-header {
-    width: auto;
-    padding: 20px;
-    text-align: center;
-    margin: 2rem auto;
-}
-
-.mh-cards-header h1 {
-  margin: 2rem auto;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.mh-cards-header p {
-font-family: 'Montserrat', sans-serif;
-}
-
 
 @media (max-width: 940px) {
-  .mh-card-wrap {
+  .sa-card-wrap {
     width: 100%;
   }
 
 }
+
+
+
+
+
+
+/* SUBSTANCE ABUSE CARDS */
+
+.menu-sa {
+  padding: 3rem 0;
+}
+
+.menu-sa-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.menu-sa-flexItem {
+  width: 300px;
+  height: auto;
+  border: 1px solid rgba(18, 102, 172, 0.171);
+  padding-bottom: 1rem;
+  box-shadow: 10px 5px 5px rgba(15, 15, 15, 0.274);
+
+}
+
+.menu-sa-flexItem img {
+  width: 100%;
+}
+
+.menu-sa-flexItem h1 {
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem 0 .5rem 0;
+}
+
+.menu-sa-flexItem h2 {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu-sa-btn {
+  text-align: center;
+}
+
+.menu-sa-btn button {
+  background-color: #5a5c82;
+  border: none;
+  border-radius: 5px;
+  font-size: .8rem;
+  padding: .5rem 1.5rem;
+}
+
+
+
+@media screen and (max-width: 940px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

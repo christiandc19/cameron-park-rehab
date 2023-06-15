@@ -15,7 +15,7 @@ const WhatWeDo = () => {
           <div className="wrapper-content-right">
             <h1>What We Do</h1> <br />
             <h2>
-            We always care about your mental health
+            Your Mental Health Matters.
             </h2>{" "}
             <br />
             <p>

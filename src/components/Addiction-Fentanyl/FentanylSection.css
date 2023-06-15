@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-.cocaine-section-header {
-    width: auto;
+.fentanyl-section {
+  padding:  3rem 0 0 0;
+}
+
+.fentanyl-section-content {
     padding: 20px;
-    text-align: center;
-    margin: 2rem auto;
-}
-
-.cocaine-section-header h1 {
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;
-}
-
-.cocaine-section-header p {
-  font-family: 'Montserrat', sans-serif;
-  text-align: justify;
+    text-align: justify;
 }
 
 
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .fentanyl-section-content h1 {
+      font-size: 2rem;
+      text-align: center;
+  }
+  
+  }

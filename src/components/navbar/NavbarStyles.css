@@ -12,9 +12,9 @@
 .navbar .container {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .navbar-logo {
@@ -45,7 +45,7 @@
 }
 .navbar li {
     width: max-content;
-    padding: .3rem 1rem;
+    padding: .3rem .8rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -61,13 +61,13 @@
 }
 
   .menu-item .sub__menus li a {
-    color: #5a5c82;
+    color: #ffffff;
     font-size: 13px;
     padding: -1rem ;
   }
 
   .menu-item .sub__menus li a:hover {
-    color: #9b51e0 !important;
+    color: #ec9d09 !important;
   }
 
   li .submenu-header {
@@ -83,11 +83,11 @@
 .sub__menus {
     position: absolute;
     display: none;
-    background: white;
-    border: 1px solid lavender;
+    background: #5a5c82;
+    border: 1px solid #5a5c82;
     border-radius: 10px;
     width: 300px;
-    left: -17px;
+    left: -5rem;
     padding: 2px 0 0 0;
     margin-top: 6px;
     z-index: 1000;
@@ -110,6 +110,12 @@
 
 
 @media screen and (max-width: 1200px) {
+
+  .navbar .container {
+    justify-content: space-between;
+
+}
+
     .navbar .hamburger {
         display: block;
         z-index: 15;
@@ -123,7 +129,7 @@
         position: absolute;
         flex-direction: column;
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         top: 0;
         left:-100%;
         align-items: center;
@@ -138,7 +144,7 @@
     }
 
     .navbar li {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .navbar button {
@@ -158,7 +164,7 @@
       }
 
       .sub__menus {
-        width: 250px;
+        width: 320px;
       }
 
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import ContactForm from '../contact/ContactForm'
 
-import { FaRegStar } from 'react-icons/fa';
+import { AiFillCheckCircle } from 'react-icons/ai';
 
 
 import './AdhdSection.css'
@@ -9,16 +9,18 @@ import './AdhdSection.css'
 const AdhdSection = () => {
   return (
 <>
+<div className='adhd-section'>
 <div className="adhd-section-header container">
                 <h1>ADHD</h1><br/>
                 <p>Attention-deficit/hyperactivity disorder (commonly known as ADHD) is a chronic condition characterized by a lack of attention and focus, and increased impulsive behavior. It often begins early in life and can continue into adulthood. ADHD in children can lead to developmental issues and learning complications. 
                 <br/> Although the behaviors of one with ADHD may not seem dangerous, there can be very real consequences to a state of mind like this, and ADHD can lead to problems with relationships with friends and family or performance at work or school. <br/> <br/>
-                People with ADHD display a persistent pattern of impulsive hyperactivity and/or an inability to focus on any one thing for too long. <br/><br/>The causes of ADHD still aren’t clear, but current research suggests that genetics play a significant role in ADHD cases. There are other possible causes for hyperactivity and inattention wholly unrelated to ADHD:<br/><br/>
+                People with ADHD display a persistent pattern of impulsive hyperactivity and/or an inability to focus on any one thing for too long. <br/><br/>The causes of ADHD still aren’t clear, but current research suggests that genetics play a significant role in ADHD cases. There are other possible causes for hyperactivity and inattention wholly unrelated to ADHD: </p> <br/><br/>
+
                 <ul>
-                <li><FaRegStar className='star'/> Brain injuries </li><br/>
-                <li><FaRegStar className='star'/> Premature birth</li><br/>
-                <li><FaRegStar className='star'/> Fatigue</li><br/>
-                <li><FaRegStar className='star'/> Exposure to harsh chemicals during pregnancy.</li>
+                <li><AiFillCheckCircle className='check'/> Brain injuries </li>
+                <li><AiFillCheckCircle className='check'/> Premature birth</li>
+                <li><AiFillCheckCircle className='check'/> Fatigue</li>
+                <li><AiFillCheckCircle className='check'/> Exposure to harsh chemicals during pregnancy.</li>
                 </ul>
 
                 <div className="adhd-section-header container">
@@ -27,9 +29,10 @@ const AdhdSection = () => {
                 For these reasons, those with ADHD may find it difficult to focus at school and work, leading to other related issues like maintaining good grades and meeting deadlines.<br/> <br />
                 With ADHD, you may have trouble with organizing and executing tasks and priorities, lose objects at a heightened rate, and become easily distracted by external stimuli or by your thoughts.
                 </p>
+                
 </div>
 
-                </p>
+                
 
 </div>
 
@@ -56,36 +59,36 @@ const AdhdSection = () => {
                 <h5>MENTAL</h5>
                 <p>
                 <ul><br/>
-                <li><FaRegStar className='star'/> Forgetfulness.</li>
-                <li><FaRegStar className='star'/> Inability to focus.</li>
-                <li><FaRegStar className='star'/> Distortion of reality.</li>
-                <li><FaRegStar className='star'/> Psychologic distress.</li>
-                <li><FaRegStar className='star'/> Flashbacks of the traumatic event.</li>
-                <li><FaRegStar className='star'/> Avoiding certain related places, people, or memories.</li>
+                <li><AiFillCheckCircle className='star'/> Forgetfulness.</li>
+                <li><AiFillCheckCircle className='star'/> Inability to focus.</li>
+                <li><AiFillCheckCircle className='star'/> Distortion of reality.</li>
+                <li><AiFillCheckCircle className='star'/> Psychologic distress.</li>
+                <li><AiFillCheckCircle className='star'/> Flashbacks of the traumatic event.</li>
+                <li><AiFillCheckCircle className='star'/> Avoiding certain related places, people, or memories.</li>
                 </ul><br/>
                 
                 <h5>PHYSICAL</h5>
               
                 <ul><br/>
-                <li><FaRegStar className='star'/> Chest pain.</li>
-                <li><FaRegStar className='star'/> Constant daydreaming.</li>
-                <li><FaRegStar className='star'/> Poor decision-making.</li>
-                <li><FaRegStar className='star'/> Inability to focus on/complete tasks.</li>
+                <li><AiFillCheckCircle className='star'/> Chest pain.</li>
+                <li><AiFillCheckCircle className='star'/> Constant daydreaming.</li>
+                <li><AiFillCheckCircle className='star'/> Poor decision-making.</li>
+                <li><AiFillCheckCircle className='star'/> Inability to focus on/complete tasks.</li>
                 </ul><br/>
 
                 <h5>PERSONAL</h5>
               
                 <ul><br/>
-                <li><FaRegStar className='star'/> Impatience</li>
-                <li><FaRegStar className='star'/> Disagreeable towards others</li>
-                <li><FaRegStar className='star'/> Unable to resist temptation</li>
-                <li><FaRegStar className='star'/> Losing & misplacing things</li>
+                <li><AiFillCheckCircle className='star'/> Impatience</li>
+                <li><AiFillCheckCircle className='star'/> Disagreeable towards others</li>
+                <li><AiFillCheckCircle className='star'/> Unable to resist temptation</li>
+                <li><AiFillCheckCircle className='star'/> Losing & misplacing things</li>
                 </ul>
                 </p>
 
                 </p>
 </div>
-
+</div>
 
 
 

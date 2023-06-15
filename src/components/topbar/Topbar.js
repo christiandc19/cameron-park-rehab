@@ -10,16 +10,16 @@ const Topbar = () => {
   return (
     <div className='topbar' name='top'>
             <div className='topbar-content container'>
-                <div className='address bar-box1'>
-                    <p><span><MdLocationPin /></span> 3700 Sunset Ln, Antioch, CA</p>
+                <div className='address bar-box1 top-hide'>
+                    <p><span><MdLocationPin /></span> 4120 Cameron Park Dr. Suite 403, Cameron Park, CA 95682</p>
                 </div>
 
-                <div className='email bar-box2'>
-                    <p><span><FiMail /></span> info@contracosta.com</p>
+                <div className='email bar-box2 top-hide'>
+                    <p><span><FiMail /></span> info@cameronparkrehab.com</p>
                 </div>
 
                 <div className='number bar-box3'>
-                    <p><span><AiOutlinePhone /></span> +1 (323) 792-0502</p>
+                    <p><span><AiOutlinePhone /></span> +1 (323) 402-9939</p>
                 </div>
 
             </div>

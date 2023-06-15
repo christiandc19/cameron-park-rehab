@@ -3,18 +3,14 @@ import Fade from 'react-reveal/Fade';
 
 import './Depression.css'
 
-import Wave from '../../assets/waves.svg'
-
 
 const Depression = () => {
     return (
         <div className='depression submenu'>
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
                 <div className="depression-content">
                     <Fade top>
                     <h1>DEPRESSION</h1>
+                    <h2>MENTAL HEALTH TREATMENT</h2>
                     </Fade>
             </div>
         </div>

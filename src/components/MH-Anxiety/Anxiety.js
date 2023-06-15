@@ -11,6 +11,7 @@ const Anxiety = () => {
                 <div className="anxiety-content">
                     <Fade top>
                     <h1>ANXIETY DISORDER</h1>
+                    <h2>MENTAL HEALTH TREATMENT</h2>
                     </Fade>
             </div>
         </div>

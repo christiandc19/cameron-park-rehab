@@ -3,18 +3,14 @@ import Fade from 'react-reveal/Fade';
 
 import './Schizophrenia.css'
 
-import Wave from '../../assets/waves.svg'
-
-
 const Schizophrenia = () => {
     return (
-        <div className='Schizophrenia submenu'>
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
-                <div className="Schizophrenia-content">
+        <div className='schizophrenia submenu'>
+
+                <div className="schizophrenia-content">
                     <Fade top>
                     <h1>SCHIZOPHRENIA DISORDER</h1>
+                    <h2>MENTAL HEALTH TREATMENT</h2>
                     </Fade>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactForm from '../contact/ContactForm'
-import { FaRegStar } from 'react-icons/fa';
+import { AiFillCheckCircle } from 'react-icons/ai';
 
 import './KratomSection.css'
 
@@ -13,11 +13,11 @@ const KratomSection = () => {
                 Users of kratom feel a stimulating sensation similar to those associated with opioids (relaxation, euphoria, relief). Kratom is typically ingested by capsule or by mixing in a drink. It produces an opioid-like sensation that begins place quickly, almost immediately. <br/><br/>
                 Those who use kratom cite both mental and physical health reasons for taking the drug, ranging from anxiety and depression to pain management for their decision to use kratom. Those seeking kratom typically take it as a method of self-medication to treat a variety of predicaments, including: <br/><br/>
                 <ul>
-                <li><FaRegStar className='star'/> Anxiety</li><br/>
-                <li><FaRegStar className='star'/> Depression</li><br/>
-                <li><FaRegStar className='star'/> Fatigue</li><br/>
-                <li><FaRegStar className='star'/> Drug cravings</li><br/>
-                <li><FaRegStar className='star'/> Opioid withdrawal</li><br/>
+                <li><AiFillCheckCircle className='star'/> Anxiety</li>
+                <li><AiFillCheckCircle className='star'/> Depression</li>
+                <li><AiFillCheckCircle className='star'/> Fatigue</li>
+                <li><AiFillCheckCircle className='star'/> Drug cravings</li>
+                <li><AiFillCheckCircle className='star'/> Opioid withdrawal</li>
                 </ul>
                 </p>
 </div>
