@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
-import logo from "../../assets/nav-logo.png";
+import logo from "../../assets/nav-logo-wh.png";
 // import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
 import "./FooterStyles.css";
 

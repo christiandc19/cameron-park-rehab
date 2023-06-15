@@ -2,6 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import "./Hero.css";
 import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -26,6 +27,13 @@ const Hero = () => {
           </div>
 
             <div className="hero-btn">
+            <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
             <Link to="/contact">
                 <button class="hero-cta">
                     <span>CONTACT US</span>
@@ -34,7 +42,8 @@ const Hero = () => {
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                 </button>
-</Link>
+            </Link>
+            </LinkRoll>
             </div>
         </div>
       </div>
