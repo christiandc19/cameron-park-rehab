@@ -37,6 +37,7 @@
     text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    line-height: 4rem;
 }
 
 .hero h2 {
@@ -128,7 +129,8 @@
 @media screen and (max-width:650px) {
 
     .hero h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: 2.6rem;
     }
 
     .hero h2 {

@@ -86,7 +86,7 @@
     background: #5a5c82;
     border: 1px solid #5a5c82;
     border-radius: 10px;
-    width: 300px;
+    width: auto;
     left: -5rem;
     padding: 2px 0 0 0;
     margin-top: 6px;
@@ -163,9 +163,7 @@
         padding: .2rem 1rem;
       }
 
-      .sub__menus {
-        width: 320px;
-      }
+
 
 }
 

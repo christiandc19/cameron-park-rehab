@@ -11,14 +11,14 @@ const Hero = () => {
         <div className="hero-container">
           <div className="content">
           <Fade left>
-              <h2 className="subtitle">WELCOME TO</h2>
+              <h2>WELCOME TO</h2>
             </Fade>
             <Fade right>
-              <h1 className="animate-charcter">CAMERON PARK REHAB</h1>
+              <h1>CAMERON PARK REHAB</h1>
             </Fade>
 
             <Fade left>
-              <h2 className="subtitle">MENTAL HEALTH AND SUBSTANCE ABUSE TREATMENT FACILITY</h2>
+              <h2>MENTAL HEALTH AND SUBSTANCE ABUSE TREATMENT FACILITY</h2>
             </Fade>
 
             <Fade bottom>
