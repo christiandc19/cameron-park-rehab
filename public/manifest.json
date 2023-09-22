@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "CAMERON PARK REHAB",
+  "name": "We believe in a holistic approach to healing, addressing both mental health and substance abuse challenges concurrently. Our evidence-based treatments are designed to empower individuals on their journey towards lasting recovery and improved well-being.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -15,7 +15,8 @@
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",

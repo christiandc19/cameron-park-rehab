@@ -12,8 +12,8 @@ const OP = () => {
 
                 <div className="sa-op-content">
                     <Fade top>
-                    <h2>SUBSTANCE ABUSE</h2>
                     <h1>Outpatient Program</h1>
+                    <h2>SUBSTANCE ABUSE</h2>
                     </Fade>
                 </div>
             </div>

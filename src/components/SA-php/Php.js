@@ -10,8 +10,8 @@ const PHP = () => {
 
                 <div className="sa-php-content">
                     <Fade top>
+                    <h1>Outpatient Program</h1>
                     <h2>SUBSTANCE ABUSE</h2>
-                    <h1>Partial Hospitalization Program</h1>
                     </Fade>
                 </div>
             </div>

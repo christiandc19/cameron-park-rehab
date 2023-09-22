@@ -10,8 +10,8 @@ const IOP = () => {
 
                 <div className="mh-iop-content">
                     <Fade top>
-                    <h2>MENTAL HEALTH</h2>
                     <h1>Intensive Outpatient Program</h1>
+                    <h2>MENTAL HEALTH</h2>
                     </Fade>
                 </div>
             </div>

@@ -7,7 +7,7 @@
     background: rgba(255, 255, 255, 0);
 }
 
-.job-section .content {
+.job-section  {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
@@ -17,7 +17,7 @@
 
 .job-section p {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    text-align: justify;
     color: rgb(0, 0, 0);
     margin: 1rem 0;
     font-size: 14px;

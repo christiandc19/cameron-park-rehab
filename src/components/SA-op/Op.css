@@ -16,7 +16,7 @@
   }
 
 
-.sa-op {
+  .sa-op {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -25,13 +25,13 @@
 .sa-op .sa-op-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 10%;
     padding: 1rem;
 }
 
 
 
-.sa-op h1 {
+.sa-op .sa-op-content h1 {
     color: white;
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
@@ -41,7 +41,6 @@
 .sa-op h2 {
     color: white;
     font-size: 1.2rem;
-    letter-spacing: 7px;
 }
 
 
@@ -49,23 +48,14 @@
 
 @media screen and (max-width:940px) {
 
-    .sa-op h2 {
+    .sa-op .sa-op-content h1 {
+        font-size: 2rem;
+
+    }
+
+    .sa-op .sa-op-content h2 {
         font-size: 1rem;
     }
-    
-    .sa-op h1 {
-        font-size: 2rem;
-    }
-    
-    .sa-op .sa-op-content {
-        display: block;
-        position: absolute;
-        top: 30%;
-        padding: 1rem;
-    }
-    
-    .sa-op .sa-op-content h1 {
-        font-size: 3rem;
-    }
-    
-    }
+
+
+}
