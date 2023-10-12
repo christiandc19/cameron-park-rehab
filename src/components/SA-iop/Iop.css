@@ -9,7 +9,7 @@
   .sa-iop:before {
     content: '';
     position: absolute;
-    background: url('../../assets/sa-submenu-bg-min.jpg') no-repeat center top/cover;
+    background: url('../../assets/sa-submenu-bg-min.webp') no-repeat center top/cover;
     height: 50vh;
     width: 100%;
     z-index: -1;
